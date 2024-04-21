@@ -9,7 +9,7 @@ function Home() {
 
   const fetchRepos = () => {
     fetch(
-      `https://api.github.com/users/temidayo/repos?per_page=6&page=${currentPage}`
+      `https://api.github.com/users/temidayoakinyemi/repos?per_page=6&page=${currentPage}`
     )
       .then((response) => response.json())
       .then((data) => {
